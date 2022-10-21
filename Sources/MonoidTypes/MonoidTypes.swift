@@ -55,3 +55,6 @@ extension Optional: MonoidType {
 extension Data: MonoidType {
     public static var identity: Data { .init() }
 }
+extension Bool: MonoidType {
+    public static var identity: Bool = false
+}
